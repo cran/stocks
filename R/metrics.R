@@ -28,9 +28,11 @@
 #' 
 #' 
 #' @examples
+#' \dontrun{
 #' # Calculate performance metrics for SSO and UPRO, using SPY as benchmark 
 #' # for alpha and beta
 #' metrics1 <- metrics(tickers = c("SPY", "SSO", "UPRO"))
+#' }
 #' 
 #' 
 #' @export
@@ -110,10 +112,10 @@ metrics <- function(tickers = NULL, ...,
     
     metric.ii <- perf.metrics[ii]
     if (metric.ii == "mean") {
-      p.metrics <- cbind(p.metrics, apply(gains, 2, mean_n))
+      p.metrics <- cbind(p.metrics, apply(gains, 2, mean))
       labels[ii] <- "Mean"
     } else if (metric.ii == "sd") {
-      p.metrics <- cbind(p.metrics, apply(gains, 2, sd_n))
+      p.metrics <- cbind(p.metrics, apply(gains, 2, sd))
       labels[ii] <- "SD"
     } else if (metric.ii == "growth") {
       p.metrics <- cbind(p.metrics, gains_rate(gains))
