@@ -1,5 +1,5 @@
-e9a49e00c5e7c36f246b90fc16511d86 *DESCRIPTION
-adaea052ff2c1fdb51b58da1b571a92c *NAMESPACE
+18ffd727e3c380cb6e855cbefce51153 *DESCRIPTION
+51e53df72ec773338fae34189c58d3eb *NAMESPACE
 d4f4969032c53720db8ad28dcebb2192 *R/RcppExports.R
 07747b03db1fc1f650d4a62075333d9d *R/beta_trailing50.R
 ecab5110cb1d2bf69a6d0e796b38d419 *R/contango_hedged.R
@@ -22,7 +22,7 @@ df3002332e1f0643e441001c4ca5aa1d *R/mdd.R
 472c3590ab192ef82c610d298b513bd2 *R/sharpe.R
 1eccce2b67f08e5efb3dedfbe19804f4 *R/sortino.R
 8827d9db4c0e7c7b9a0b99555a03e042 *R/stocks-data.R
-0306590b37c1e99e502f52f8606eb959 *R/stocks.R
+be31711e1f5ab1f070e92d05c3d90816 *R/stocks.R
 2bc92ddc7a673c3f10c03daec19e58f8 *R/targetall.R
 a6734a89812d4f90a442a96911ad5b19 *R/targetbeta_twofunds.R
 b9a1abc6a94e39cb4eb16feacded4d62 *R/threefunds_graph.R
@@ -84,7 +84,7 @@ c6c62a32186c1d298ed0eeea6f0bd3b1 *man/rrr.Rd
 0e131dca7ea4b82bfff07e23504455e0 *man/sector_spdr_etfs.Rd
 e0fa9872acac8e67aa3358e0d577669a *man/sharpe.Rd
 36c550c5c1aadd11e13e2f7ad7fd055e *man/sortino.Rd
-31cbdb92a73330544546d4093144230e *man/stocks.Rd
+c87eb738a539720d9013cfc46cad9d38 *man/stocks.Rd
 9b36485f6917987cf06f92fb99752f06 *man/targetall.Rd
 6839dd8509634ae7c3d3b8346a4b6f50 *man/targetbeta_twofunds.Rd
 45752fe66ff86fe8db709c9bb917fd2c *man/threefunds_graph.Rd
